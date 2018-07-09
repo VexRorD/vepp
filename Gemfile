@@ -12,12 +12,14 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
-
+gem 'devise'
+gem 'devise-i18n'
 gem 'bootstrap-sass'
 
 group :development, :test do 
     gem 'sqlite3'
 end
+
 group :production do
     gem 'pg', '0.21.0'
     gem 'rails_12factor'
