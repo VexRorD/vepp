@@ -15,6 +15,7 @@ gem 'spring',        group: :development
 gem 'devise'
 gem 'devise-i18n'
 gem 'bootstrap-sass'
+gem "paperclip", "~> 6.0.0"
 
 group :development, :test do 
     gem 'sqlite3'
