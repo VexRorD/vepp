@@ -13,9 +13,11 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'devise-i18n'
+gem 'rails-i18n'
 gem 'bootstrap-sass'
 gem "paperclip"
 gem 'devise'
+gem'toastr-rails'
 
 group :development, :test do 
     gem 'sqlite3'

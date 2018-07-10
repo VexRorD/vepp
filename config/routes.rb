@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :models, :path_name=>'',
-                      :paht_name=>{:sign_in =>'login', :sign_out =>'logout', :edit => 'profile'}
+                      :paht_name=>{:sign_in =>'login', :sign_out =>'logout', :edit => 'profile'},
+                      :controllers => {:registrations => 'registrations' }
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
